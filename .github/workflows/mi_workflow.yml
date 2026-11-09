@@ -1,0 +1,31 @@
+name: Entregable 1 - Primer workflow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  imprimir_info:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Imprimir Mensaje Personalizado
+        shell: bash
+        run: |
+          echo "Hola, soy Sergio Alfredo Junca Valero y este es mi primer workflow!"
+          echo "La fecha y hora actual es: $(date)"
+
+      - name: Configurar Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+
+      - name: Ejecutar script Python
+        run: python mi_script.py
