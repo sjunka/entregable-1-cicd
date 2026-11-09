@@ -4,11 +4,11 @@ Taller Entregable 1 del curso Integración y Entrega Continua de Software (SI600
 
 ## Integrantes
 
-Texto usado en `AUTOR`: `Sergio Alfredo Junca Valero`
+Texto usado en `AUTOR`: `Sergio Junca`
 
 | Nombre completo | Usuario de GitHub | Rol |
 |---|---|---|
-| Sergio Alfredo Junca Valero | [sjunka](https://github.com/sjunka) | Propietario del repositorio |
+| Sergio Junca | [sjunka](https://github.com/sjunka) | Propietario del repositorio |
 
 Entrega individual.
 
@@ -25,9 +25,9 @@ Entrega individual.
 Salida del job `imprimir_info` en la ejecución por `push`:
 
 ```
-Hola, soy Sergio Alfredo Junca Valero y este es mi primer workflow!
+Hola, soy Sergio Junca y este es mi primer workflow!
 La fecha y hora actual es: Mon Nov  9 14:51:37 UTC 2026
-Autor: Sergio Alfredo Junca Valero
+Autor: Sergio Junca
 Sistema Operativo: Linux 7.0.0-1019-azure
 Fecha y hora desde Python: 2026-11-09 14:51:38.317138
 ```

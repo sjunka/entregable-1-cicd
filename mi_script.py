@@ -2,7 +2,7 @@
 import platform
 import datetime
 
-AUTOR = "Sergio Alfredo Junca Valero"
+AUTOR = "Sergio Junca"
 
 def main():
     print(f"Autor: {AUTOR}")
