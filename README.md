@@ -19,17 +19,17 @@ Entrega individual.
 
 ## Ejecución exitosa
 
-- Ejecución por `push` a `main`: https://github.com/sjunka/entregable-1-cicd/actions/runs/42638782136
-- Ejecución manual (`workflow_dispatch`): https://github.com/sjunka/entregable-1-cicd/actions/runs/42638838974
+- Ejecución por `push` a `main`: https://github.com/sjunka/entregable-1-cicd/actions/runs/42639210496
+- Ejecución manual (`workflow_dispatch`): https://github.com/sjunka/entregable-1-cicd/actions/runs/42639255147
 
 Salida del job `imprimir_info` en la ejecución por `push`:
 
 ```
 Hola, soy Sergio Junca y este es mi primer workflow!
-La fecha y hora actual es: Mon Nov  9 14:51:37 UTC 2026
+La fecha y hora actual es: Mon Nov  9 14:54:17 UTC 2026
 Autor: Sergio Junca
 Sistema Operativo: Linux 7.0.0-1019-azure
-Fecha y hora desde Python: 2026-11-09 14:51:38.317138
+Fecha y hora desde Python: 2026-11-09 14:54:17.848797
 ```
 
 ## Respuestas
