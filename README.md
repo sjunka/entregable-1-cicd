@@ -80,3 +80,5 @@ En mi trabajo diario automatizaría dos cosas:
 
 - Correr las pruebas y el linter en cada pull request. Hoy eso depende de que cada persona lo haga en su máquina antes de subir los cambios, y a veces se olvida. Si el pipeline lo hace siempre, los errores se encuentran antes de que lleguen a `main` y la revisión de código se concentra en la lógica y no en detalles de formato.
 - Revisar dependencias de forma programada, con un workflow semanal (evento `schedule`) que avise cuando haya paquetes desactualizados o con vulnerabilidades conocidas. Es una tarea que nadie hace con regularidad si es manual, y dejarla atrasada hace que las actualizaciones después sean más grandes y más riesgosas.
+
+Las dos ideas tienen que ver con principios de liderazgo de Amazon que vimos en clase. Correr las pruebas en cada pull request es *Insist on the Highest Standards*: un defecto no debería pasar a la siguiente etapa, y cuando aparece uno se agrega una prueba para que no vuelva. Revisar las dependencias es *Ownership*: el equipo que construye el sistema también responde por mantenerlo sano a largo plazo, que es la idea de "You build it, you run it" de Werner Vogels.
